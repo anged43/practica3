@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcionactividaes"
+        android:title="actividades">
+        <menu>
+            <item
+                android:id="@+id/opcionlogin"
+                android:title="login">
+            </item>
+            <item
+                android:id="@+id/opcionregistrar"
+                android:title="registro">
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/opcionsensores"
+        android:title="sensores">
+        <menu>
+            <item
+                android:id="@+id/opcionacelerometro"
+                android:title="acelerometro">
+            </item>
+            <item
+                android:id="@+id/opcionluz"
+                android:title="luz">
+            </item>
+            <item
+                android:id="@+id/opcionproximidad"
+                android:title="proximidad">
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/opcionhardware"
+        android:title="hadware">
+        <menu>
+            <item
+                android:id="@+id/opcionacamara"
+                android:title="camara">
+            </item>
+            <item
+                android:id="@+id/opcionlinterna"
+                android:title="linterna">
+            </item>
+            <item
+                android:id="@+id/opcionvibrar"
+                android:title="vibrar">
+            </item>
+        </menu>
+
+    </item>
+
+
+</menu>
